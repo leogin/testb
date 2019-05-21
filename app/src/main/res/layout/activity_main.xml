@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/b_creatDatabase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Create_Datebase"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/b_createTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Add_Data"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/b_inserData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Delete_Data"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/b_updataDatabase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Update_Data"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/b_searchTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Search_Data"
+        android:text="Button" />
+</LinearLayout>
